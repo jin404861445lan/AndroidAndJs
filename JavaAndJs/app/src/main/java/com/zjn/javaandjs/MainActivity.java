@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_calljs:
-
                 //无参数，java掉js代码
                 mWebView.loadUrl("javascript:javacalljs()");
                 break;
